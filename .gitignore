@@ -1,0 +1,11 @@
+.vs/
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+/.idea
+*.user
+*.DotSettings.user
+* - Copy.*
+.DS_Store

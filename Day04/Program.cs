@@ -1,0 +1,29 @@
+﻿namespace DayX;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Advent of Code 2025 - Day 4");
+        
+        // read and parse input
+        
+        var lines = File.ReadAllLines("input-sample.txt");
+        
+        // part 1
+        Console.WriteLine("Part 1");
+
+        var result = 0;
+        foreach (var line in lines)
+        {
+            Console.WriteLine(line);
+        }
+        Console.WriteLine($"Result: {result}");
+        
+        // part 2
+        Console.WriteLine("Part 2");
+        result = 0;
+        
+        Console.WriteLine($"Result: {result}");
+    }
+}
